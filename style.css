@@ -1,13 +1,25 @@
 .flex-item{
-    width: 100px;
+    width: 10px;
     height: 200px ;
     background-color: black;  
     margin: 4px; 
 }
+/*flex container select outer divs and flex item select inner divs*/
 .flex-container{
     display: flex;
     border:2px solid black;
+    width:800;
+    height: 80% ;
+    align-items: center;
     
-    justify-content:center ;
+    justify-content:space-evenly ;
 }
 
+.flex-container2{
+    display: flex;
+    border:2px solid black;
+    width:800;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+} 
